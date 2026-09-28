@@ -25,8 +25,8 @@ Download the CSVs and place them in `data/raw/`.
 
 ## Setup
 ```bash
-git clone <repo-url>
-cd olist-repeat-purchase-prediction
+git clone https://github.com/reicae/brazilian-commerece-repeat-buyers.git
+cd brazilian-commerce-repeat-buyers
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
