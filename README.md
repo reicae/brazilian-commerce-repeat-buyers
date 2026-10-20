@@ -14,9 +14,7 @@ will make a repeat purchase within 120 days.
 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - ~100,000 orders, 2016–2018
 - 9 relational tables (customers, orders, items, payments, reviews, products, sellers, geolocation, category translation)
-
-Download the CSVs and place them in `data/raw/`.
-
+- See [`data/README.md`](data/README.md) for the full download instructions, table descriptions, and folder layout.
 ## Team
 - Mason Driggers
 - Alyssa Ortiz
@@ -25,7 +23,7 @@ Download the CSVs and place them in `data/raw/`.
 
 ## Setup
 ```bash
-git clone https://github.com/reicae/brazilian-commerece-repeat-buyers.git
+git clone https://github.com/reicae/brazilian-commerce-repeat-buyers.git
 cd brazilian-commerce-repeat-buyers
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
