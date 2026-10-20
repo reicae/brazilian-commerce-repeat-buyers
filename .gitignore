@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data (CSVs too big for GitHub)
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+*.zip
+
+# Trained models
+models/
+*.pkl
+*.joblib
+*.h5
+
+# Reports Output
+reports/figures/*.png
+reports/figures/*.pdf
